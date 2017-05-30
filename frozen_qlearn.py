@@ -54,7 +54,7 @@ print '\n'
 print Q
 print str(sum(rList[:num_episodes/3]))
 print str(sum(rList[num_episodes/3:2*num_episodes/3]))
-print str(sum(rList[2*num_episodes/3:2*num_episodes]))
+print str(sum(rList[2*num_episodes/3:num_episodes]))
 print str(sum(rList[:num_episodes]))
 
 # We observe the Q values seem to improve over time and then converge (observed for ~3500 iterations)
